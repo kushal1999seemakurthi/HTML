@@ -1,1 +1,1 @@
-# Made resume usimg Html, Css, Bootstrap
+# Made resume using Html, Css, Bootstrap
