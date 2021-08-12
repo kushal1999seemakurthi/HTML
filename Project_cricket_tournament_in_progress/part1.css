@@ -1,0 +1,173 @@
+td button{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.teams{
+
+  background-color: grey;
+}
+
+#t1{
+  /* background-color : rgb(60,60,60) */
+  background-color : rgb(60,60,60)
+}
+
+#t2{
+  /* background-color : rgb(120,60,60) */
+  background-color : rgb(80,20,20)
+}
+
+#t3{
+  /* background-color : rgb(60,120,60) */
+  background-color : rgb(160,20,20)
+}
+
+#t4{
+  /* background-color : rgb(60,60,120) */
+  background-color : rgb(20,80,20)
+}
+
+#t5{
+  /* background-color : rgb(120,180,180) */
+  background-color : rgb(20,160,20)
+}
+
+#t6{
+  /* background-color : rgb(180,120,180) */
+  background-color : rgb(20,20,80)
+}
+
+#t7{
+  /* background-color : rgb(180,180,120) */
+  background-color : rgb(20,20,160)
+}
+
+#t8{
+  background-color : rgb(200,0,50)
+}
+
+#t12{
+
+}
+
+#t34{
+
+}
+
+#t56{
+
+}
+
+#t78{
+
+}
+
+#t1234{
+
+}
+
+#t5678{
+
+}
+
+#t12345678{
+  background-color : rgb(10,120,240)
+}
+
+.General{
+  margin: 30px;
+}
+
+#CTD{
+  padding: 30px;
+  background-color : rgb(200,200,200);
+  border-radius : 30px;
+}
+
+.ccc{
+  padding: 30px;
+  background-color : rgb(200,200,200);
+  border-radius : 30px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidepanel  {
+  width: 0;
+  position: relative;
+  /* z-index: 1; */
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: relative;
+}
+
+#taable{
+  background-color: rgba(200, 200, 200, 0.9);
+  border-radius : 30px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#tooogle{
+  /* transform: rotate(-90deg); */
+  transform-origin: 105px 175px;
+}
+
+#container2{
+  width: 0;
+  height: 0;
+}
