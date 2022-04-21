@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form selection Techniques</title>
+  </head>
+  <body>
+    <h1>Form selection techniques</h1>
+
+    <form method="get" action="">
+      <p>Example 1: how r u¿¿</p>
+      <label for="happy">I'm Happy</label>
+      <input id="happy" type="radio" name="" value="">
+
+      <label for="ammaizing">I'm Ammaizing</label>
+      <input  id="ammaizing" type="radio" name="" value="">
+
+      <p>Example 2: how r u¿¿</p>
+      <label for="happy">I'm Happy</label>
+      <input id="happy" type="radio" name="state" value="" required>
+
+      <label for="ammaizing">I'm Ammaizing</label>
+      <input  id="ammaizing" type="radio" name="state" value="">
+
+      <p>In exaple 1 we used only label and id to get response were as we were
+        unable to change the options.</p>
+
+      <p>But in example 2 we can flip the selection of option since we named
+        the both entities same.</p>
+
+      <p>Lets explore something more intereactive like select function</p>
+      <label for="Feel"> How do You Feel about hotel ¿¿</label>
+      <select name="Mood">
+        <option value="Great"> 4 </option>
+        <option value="Better"> 3 </option>
+        <option value="Good"> 2 </option>
+        <option value="Fine"> 1 </option>
+
+      </select>
+      <label for="Feel"> How do You Feel ¿¿</label>
+      <select id="Feel" name="Mood">
+        <option value="Great"> Great </option>
+        <option value="Better"> Better </option>
+        <option value="Good"> Good </option>
+        <option value="Fine"> Fine </option>
+
+      </select>
+
+      <p></p>
+
+      <input type="text" name="" placeholder="Write a review" required>
+      <p></p>
+      <textarea name="name" rows="8" cols="80" placeholder="Write a review"></textarea>
+
+      <input type="submit" name="" value="Submit">
+
+    </form>
+
+
+  </body>
+</html>

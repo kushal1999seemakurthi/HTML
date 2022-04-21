@@ -1,0 +1,43 @@
+h1{
+  border: 1px  solid gray;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family:fantasy;
+  /* padding-left: 100px; */
+}
+
+p{
+  font-family: "chalkboard";
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: justify;
+  border: 2px solid black;
+}
+
+#para{
+  font-family:  'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  /* margin: 20px; */
+  border: 2px solid black;
+  padding: 100px;
+  text-align: center;
+  background-color: rgba(155, 100, 20, 0.7);
+}
+
+.sec{
+  background-color: rgba(155, 100, 80, 0.3);
+}
+
+#paraa{
+  font-family:  'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  margin: 20px 200px 20px 200px;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(155, 100, 80, 0.7);
+}

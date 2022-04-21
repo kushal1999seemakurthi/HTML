@@ -1,0 +1,15 @@
+li{
+  color: red;
+}
+
+.topitem{
+  color: blue;
+}
+
+#two{
+  color: yellow;
+}
+
+#four{
+  border:  3px dotted gray;
+}
